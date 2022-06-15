@@ -1,14 +1,23 @@
 body {
-  background: #ddd;
+  background-image: url("https://cdn.pixabay.com/photo/2014/11/05/09/03/owl-517497_1280.jpg");
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
 }
+h1{
+	color: red;
+}
+h2 {
+	color: aliceblue;
+}
+content {
+	color: aliceblue;
+}
 
 nav {
-	border-bottom: 2px solid orange;
+	border-bottom: 2px solid red;
 }
 
 ol {
@@ -35,4 +44,9 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+.fav-buttons {
+	font-size: 50px;
+	background-color: rgb(243, 243, 3);
 }
